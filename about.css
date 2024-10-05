@@ -1,0 +1,53 @@
+body{
+    background-color: rgb(0, 0, 33);
+}
+h1{
+    text-align: center;
+    font-size: 70px;
+    color:wheat;
+}
+h2{
+    text-align: center;
+    color: rgb(252, 44, 221);
+}
+.b h2{
+    text-align: center;
+    color:rgb(55, 55, 236);
+    font-size: 45px;
+}
+#academic{
+    display: flex;
+    justify-content: space-around;
+}
+.card h3{
+    text-align: center;
+    color:black;
+}
+.card{
+    padding: 20px;
+    border: 1px solid black;
+    background-color: grey;
+    border-radius: 5px;
+    color:lavender;
+    box-shadow: 10px 10px 10px rgba(128,128,128,0.3);
+    transition: 2s;
+}
+.skills h2{
+    text-align: center;
+    color:rgb(55, 55, 236);
+    font-size: 45px;
+}
+ul{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+    border: 1px solid black;
+    background-color: grey;
+    border-radius: 5px;
+    color:lavender;
+    box-shadow: 10px 10px 10px rgba(128,128,128,0.3);
+    transition: 2s;
+}
+.card:hover, ul:hover{
+    box-shadow: 20px 20px 10px rgba(128,128,128,0.3);  
+}
